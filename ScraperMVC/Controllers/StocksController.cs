@@ -10,6 +10,24 @@ namespace ScraperMVC.Controllers
 {
     public class StocksController : Controller
     {
+        public ViewResult Index()
+        {
+            var stocks = GetStocks();
+
+            return View(stocks);
+        }
+
+        private IEnumerable<Stock> GetStocks()
+        {
+            return new List<Stock>
+            {
+                new Stock { id = 1, Symbol = "BTC" },
+                new Stock { id = 2, Symbol = "ETH" }
+            };
+        }
+
+
+
 //        GET: stocks/random
         public IActionResult Random()
         {

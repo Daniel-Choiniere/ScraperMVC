@@ -23,7 +23,7 @@ namespace ScraperMVC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Stocks()
         {
             return View();
         }
