@@ -1,0 +1,6 @@
+﻿Decmeber 12th 2019 
+
+After getting a Virtual Windows Machine setup yesterday I have been familiarizing myself with Visual Studio and the Windows enviroment. 
+I have found a good walk through that I am going to go through today that will guide me through building a ASP.Net MVC app. 
+I will be trying to finish that walkthrough today whiule applying what I learn towards my application.
+

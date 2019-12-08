@@ -1,0 +1,7 @@
+﻿December 11th 2019
+
+After much frustration trying to hack everything together using macos trying to build this Windows application I have decided to set up a virtual machine.
+I am going to look into the Azure cloud based VM, while it may cost me a few bucks a day I feel this is my best route considering my machine does not have enough space to run a VM.
+
+After getting the VM up and running I am going to look again for helpful tutorials that can help me understand better the structure and mechanics of the .net MVC application.
+While I had made some progress working in a macos enviroment I was having a lot of trouble finding releavant research materials, and spending way too much time trying to find work arounds.

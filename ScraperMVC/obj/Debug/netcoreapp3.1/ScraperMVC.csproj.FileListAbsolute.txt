@@ -136,3 +136,4 @@ C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\bin\Debug\netcoreapp3.1\zh-Hant\
 C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\obj\Debug\netcoreapp3.1\ScraperMVC.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\obj\Debug\netcoreapp3.1\ScraperMVC.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\obj\Debug\netcoreapp3.1\Razor\Views\Stocks\Random.cshtml.g.cs
+C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_NavBar.cshtml.g.cs

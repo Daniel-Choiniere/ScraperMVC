@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ScraperMVC.Models;
+using ScraperMVC.ViewModels;
 
 namespace ScraperMVC.Controllers
 {
@@ -13,12 +14,23 @@ namespace ScraperMVC.Controllers
         public IActionResult Random()
         {
             var stock = new Stock() {Symbol = "BTC"};
-            return View();
-        }
+            var users = new List<User>
+            {
+                new User { Name = "Dan" },
+                new User { Name = "Bean" },
+                new User { Name = "Sean" },
+                new User { Name = "Al" },
+                new User { Name = "Christian" },
+                new User { Name = "Joe" }
+            };
 
-        public IActionResult Edit(int id)
-        {
-            return Content("id=" + id);
+            var viewModel = new RandomStockViewModel
+            {
+                Stock = stock,
+                Users = users
+            };
+
+            return View(viewModel);
         }
 
 //        stocks
