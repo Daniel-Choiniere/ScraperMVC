@@ -139,3 +139,4 @@ C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\obj\Debug\netcoreapp3.1\Razor\Vi
 C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Stocks.cshtml.g.cs
 C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\obj\Debug\netcoreapp3.1\Razor\Views\Users\Details.cshtml.g.cs
 C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\Dan\source\repos\ScraperMVC\ScraperMVC\obj\Debug\netcoreapp3.1\Razor\Views\Stocks\Index.cshtml.g.cs

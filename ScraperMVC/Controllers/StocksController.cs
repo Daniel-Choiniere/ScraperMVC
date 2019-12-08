@@ -8,6 +8,7 @@ using ScraperMVC.ViewModels;
 
 namespace ScraperMVC.Controllers
 {
+        // GET: stocks/   abstract list of all stocks
     public class StocksController : Controller
     {
         public ViewResult Index()
@@ -27,8 +28,7 @@ namespace ScraperMVC.Controllers
         }
 
 
-
-//        GET: stocks/random
+            // GET: stocks/random
         public IActionResult Random()
         {
             var stock = new Stock() {Symbol = "BTC"};
@@ -49,17 +49,6 @@ namespace ScraperMVC.Controllers
             };
 
             return View(viewModel);
-        }
-
-//        stocks
-        public IActionResult Index(int? pageIndex, string sortBy)
-        {
-            if (!pageIndex.HasValue)
-                pageIndex = 1;
-            if (String.IsNullOrWhiteSpace(sortBy))
-                sortBy = "Name";
-
-            return Content(String.Format("pageIndex={0}&sortBy={1}", pageIndex, sortBy));
         }
     }
 }
